@@ -51,11 +51,11 @@ hr.star-primary:after {
   content: '\f005'; }
 
 hr.star-light {
-  border-color: white; }
+  border-color: #FF0303; }
 
 hr.star-light:after {
   color: white;
-  background-color: #18BC9C; }
+  background-color: #2C3E50; }
 
 hr.star-primary {
   border-color: #2C3E50; }
@@ -75,7 +75,7 @@ section {
 
 section.success {
   color: white;
-  background: #18BC9C; }
+  background: #383838; }
 
 @media (max-width: 767px) {
   section {
@@ -105,7 +105,7 @@ section.success {
   font-weight: 700;
   text-transform: uppercase;
   border: none;
-  background: #2C3E50; }
+  background: #F72626; }
   #mainNav a:focus {
     outline: none; }
   #mainNav .navbar-brand {
@@ -118,7 +118,7 @@ section.success {
     #mainNav .navbar-nav li.nav-item a.nav-link {
       color: white; }
       #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-        color: #18BC9C;
+        color: #606161;
         outline: none; }
       #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
         color: white; }
@@ -130,8 +130,8 @@ section.success {
     border-color: white; }
     #mainNav .navbar-toggler:focus, #mainNav .navbar-toggler:hover {
       color: white;
-      border-color: #18BC9C;
-      background-color: #18BC9C; }
+      border-color: #606161;
+      background-color: #606161; }
 
 @media (min-width: 992px) {
   #mainNav {
@@ -148,10 +148,10 @@ section.success {
     #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
       color: white;
       border-radius: 3px;
-      background: #18BC9C; }
+      background: #606161; }
       #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
         color: white;
-        background: #18BC9C; }
+        background: #606161; }
   #mainNav.navbar-shrink {
     padding-top: 10px;
     padding-bottom: 10px; }
@@ -163,7 +163,7 @@ header.masthead {
   padding-bottom: 50px;
   text-align: center;
   color: white;
-  background: #18BC9C; }
+  background: #383838; }
   header.masthead img {
     display: block;
     margin: 0 auto 20px; }
@@ -214,7 +214,7 @@ header.masthead {
         height: 20px;
         margin-top: -12px;
         text-align: center;
-        color: white; }
+        color: #ADADAD; }
         #portfolio .portfolio-item .portfolio-link .caption .caption-content i {
           margin-top: -12px; }
         #portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
